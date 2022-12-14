@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title> World Hunger & Malnutrition </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type='module' src='https://prod-useast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 200px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button5 {background-color: #faf7f7; color: black;} /* Documentation */
+.button6 {background-color: #faf7f7; color: black;} /* Video */
+
+</style>
+</head>
+
+<body>
+
+
+<h1 style="text-align:center; font-size:300%; margin-top:40px;"> World Hunger and Malnutrition </h1>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>What is Hunger?</h2>
+    <p> World Hunger & Malnutrition have been rising concern. The amount of food produced globally would be sufficient to feed every person on the earth. Yet up to 828 million people remain undernourished. Hunger is a severe food insecurity where people do not eat due to financial, accessibility, or other resources.</p>
+
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Project Analysis</h2>
+    <p> In this project we aim to identify the top 10 countries that are being affected by world hunger and malnutrition. We will explore various factors such us global hunger index, stunting, wasting, undernourishment, and calorie intake to access the countries. The actions been taken in 5 countries will be discussed. </p>
+  </div>
+</div>
+
+<h2 style="text-align:left; font-size:200%;"> The Percent of Undernourished Population </h2>
+<p> The countries with highest Undernourished Population were India, China, Pakistan, Nigeria, Bangladesh, Indonesia, Ethiopia, Uganda, Tanzania, Kenya.</p>
+<tableau-viz id='tableau-viz' src='https://prod-useast-a.online.tableau.com/t/allap/views/WorldHungerMalnutrition/Dashboard1/0a821e97-1808-40cb-8de5-ed7e65350747/5b9f630f-e02e-4567-8625-11ed1bd39fe7' width='1400' height='840' hide-tabs toolbar='bottom' ></tableau-viz>
+<div id="tableauViz"></div>
+
+<h2 style="text-align:left; font-size:200%;"> Global Hunger Index </h2>
+<p> The countries with highest Undernourished Population were India, China, Pakistan, Nigeria, Bangladesh, Indonesia, Ethiopia, Uganda, Tanzania, Kenya.</p>
+<tableau-viz id='tableau-viz' src='https://prod-useast-a.online.tableau.com/t/allap/views/WorldHungerMalnutrition/Dashboard2' width='1400' height='840' hide-tabs toolbar='bottom' ></tableau-viz>
+<div id="tableauViz"></div>
+
+
+<h2 style="text-align:left; font-size:200%;"> Childhood Malnutrition </h2>
+</script><tableau-viz id='tableau-viz' src='https://prod-useast-a.online.tableau.com/t/allap/views/WorldHungerMalnutrition/ChildMalnutrition' width='1400' height='800' hide-tabs toolbar='bottom' ></tableau-viz>
+<div id="tableauViz"></div>
+
+<h2 style="text-align:left; font-size:200%;"> The Correlation Between Undernourished and Calorie Intake </h2>
+<tableau-viz id='tableau-viz' src='https://prod-useast-a.online.tableau.com/t/allap/views/WorldHungerMalnutrition/UndernourishedVsCalorie' width='1400' height='800' hide-tabs toolbar='bottom' ></tableau-viz>
+<div id="tableauViz"></div>
+
+<h2 style="text-align:left; font-size:200%;"> Action Taken in Countries </h2>
+<a href="https://www.actionagainsthunger.org/location/asia/india/">Action Against Hunger India</a>
+
+
+
+<button class="button button5">Documentation</button>
+<button class="button button6">Video</button>
+
+
+</body>
+</html>
